@@ -56,4 +56,5 @@ class TestValidator(unittest.TestCase):
         result = self.validator.username_is_valid(username)
         
         # Assert 
+        self.assertFalse(result)
 
